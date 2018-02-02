@@ -11,8 +11,8 @@ Develop a client/server program for file transfer/processing based on Stream (TC
 
 ### **Commands**:  
 Compile: $gcc tfs.c -o tfs  
-Run the server side: $./tfs ip_add port_num 
-Complie: $gcc tfc.c -o tfc  
+Run the server side: $./tfs <ip_add> <port_num>  
+Complie: $gcc tfc.c -o tfc    
 Run the client side: $./tfc ip_add port_num <zip_file>   
 
 ### **Further Discussion using WireShark**:   
