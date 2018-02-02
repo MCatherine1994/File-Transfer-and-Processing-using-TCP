@@ -1,6 +1,7 @@
 **Requirement**: Develop a client/server program for file transfer/processing based on Stream (TCP) sockets. The input arguments of server program are an IP address and Port number. The client program has 3 input arguments including the IP address and Port number of the server side as well as the Name of a zipped file.
 
-**Steps**:1) Read the given zip file and send it to the server program at host-b.
+**Steps**:
+1) Read the given zip file and send it to the server program at host-b.
 2) Unzip the received file & send it back to the client.
 3) Client side program displays the total duration of the file transfer process in milliseconds.
 4) Check the checksum of the original file and the received file (using md5sum Linux command).  
