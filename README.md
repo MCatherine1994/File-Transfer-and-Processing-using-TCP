@@ -9,6 +9,11 @@ Develop a client/server program for file transfer/processing based on Stream (TC
 3) Client side program displays the total duration of the file transfer process in milliseconds.
 4) Check the checksum of the original file and the received file (using md5sum Linux command).  
 
+### **Commands**:  
+Compile: $gcc tfs.c -o tfs  
+Run the server side: $./tfs <ip> <port>  //Server is ready
+Complie: $gcc tfc.c -o tfc
+Run the client side: $./tfc <ip> <port> <zip_file>   
 
 ### **Further Discussion using WireShark**:   
 **1)** As the first set of results, make sure that the router has no prior configuration to drop the packets and no loss occurs during the file transfer process at the router. You may use ‘tc qdisc show’ at the router to check the existing configuration. Then, use Wireshark to capture the transferred traffic between two hosts at outgoing interface of router. After finishing the file transfer, use the captured traffic to count the number of transmitted/received packets at both hosts.  
