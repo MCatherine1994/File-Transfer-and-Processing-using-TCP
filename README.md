@@ -1,4 +1,4 @@
-**Requirement**: Develop a client/server program for file transfer/processing based on Stream (TCP) sockets. The input arguments of server program are an IP address and Port number. The client program has 3 input arguments including the IP address and Port number of the server side as well as the Name of a zipped file.  
+**Requirement**: Develop a client/server program for file transfer/processing based on Stream (TCP) sockets. The input arguments of server program are an IP address and Port number. The client program has 3 input arguments including the IP address and Port number of the server side as well as the Name of a zipped file.
 
 **Steps**:
 1) Read the given zip file and send it to the server program at host-b.
