@@ -22,4 +22,4 @@ Run the client side: $./tfc <ip_add> <port_num> <zip_file>
 
 **3)** After getting the results for the explained scenarios, write a short and concise analysis and justify your observations and the outcomes. You can use proper snapshots and graphs to elaborate your justification in the report.  
 
-
+**Check the report for answers.**
