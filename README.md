@@ -24,5 +24,5 @@ Run the client side: $./tfc <ip_add> <port_num> <zip_file>
 
 **Check the report for answers.**
 
-**Reference on git**  
+### **Reference on git**  
 http://dont-be-afraid-to-commit.readthedocs.io/en/latest/git/commandlinegit.html
